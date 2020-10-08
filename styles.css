@@ -1,6 +1,48 @@
-.center {
+.nav-bar {
+    height: 150px;
+}
+
+.nav-bar-col1 {
+    float: left;
+    height: 100%;
+    padding-left: 8px;
+}
+
+.nav-bar-col2 {
+    float: right;
+    height: 100%;
+    padding-right: 5px;
+}
+
+.nav-bar-button-left {
+    float: left;
+    vertical-align: top;
+    weight: 25%;
+    margin: 15px 8px;
+    height: 100%;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-bar-button-right {
+    float: right;
+    vertical-align: top;
+    weight: 25%;
+    margin: 15px 8px;
+    /* height: 100%; */
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    display: inline-block;
+    width: 100vw;
+}
+
+#logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 250px;
+    height: auto;
 }
